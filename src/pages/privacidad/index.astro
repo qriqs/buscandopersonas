@@ -1,0 +1,23 @@
+---
+import { ArrowLeft } from '@lucide/astro';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import { contact } from '../../business';
+---
+
+<SiteLayout title="Privacidad y contacto | BuscandoPersonas.org" description="Conoce cómo funcionan los canales de contacto de BuscandoPersonas.org y qué tener en cuenta al compartir información.">
+  <main id="contenido" class="inner-page privacy wrap" tabindex="-1">
+    <a class="text-link" href="/#contacto"><ArrowLeft size={17} aria-hidden="true" /> Volver a contacto</a>
+    <h1>Privacidad y <em>contacto.</em></h1>
+    <p>Esta página explica cómo funcionan los canales de contacto que enlazamos desde el sitio.</p>
+
+    <h2>Al enviarnos una consulta</h2>
+    <p>Los botones de contacto te llevan a WhatsApp, Jotform o tu aplicación de correo. Cuando envías un mensaje o un formulario, la información que compartes se transmite por el servicio que elegiste.</p>
+    <p>Consulta los avisos de privacidad de <a href="https://www.whatsapp.com/legal/privacy-policy">WhatsApp</a> y <a href="https://www.jotform.com/privacy/">Jotform</a> para conocer cómo tratan tus datos esos proveedores.</p>
+
+    <h2>Antes de compartir datos sensibles</h2>
+    <p>Para una primera consulta, basta con una descripción general del caso. Pregunta qué datos son necesarios antes de compartir documentos de identidad, direcciones, datos de menores o fotografías privadas.</p>
+
+    <h2>Consultas sobre tus datos</h2>
+    <p>Si tienes preguntas sobre la información que enviaste a {contact.name}, escríbenos a <a href={'mailto:' + contact.email}>{contact.email}</a>.</p>
+  </main>
+</SiteLayout>

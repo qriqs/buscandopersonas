@@ -1,0 +1,13 @@
+---
+import globe from '../assets/globo.png';
+
+const { href = '/' } = Astro.props;
+---
+
+<a class="brand" href={href}>
+  <img src={globe.src} width="45" height="43" alt="" />
+  <span class="brand__wordmark">
+    <strong>Buscando<span>Personas</span><small>.org</small></strong>
+    <span>Sin Fronteras</span>
+  </span>
+</a>
