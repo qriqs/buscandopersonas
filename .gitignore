@@ -70,7 +70,11 @@ node_modules/
 
 # Local agent skill installs (machine-local, not source)
 # Codex reads .agents/skills; OpenCode reads .opencode/skills and .agents/skills.
-.opencode/skills/
-.agents/skills/
-.claude/skills/
-.codex/skills/
+.opencode/skills
+.agents/skills
+.claude/skills
+.codex/skills
+
+# Astro output and generated types
+dist/
+.astro/

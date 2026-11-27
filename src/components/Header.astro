@@ -1,0 +1,39 @@
+---
+import { ArrowUpRight, Menu, X } from '@lucide/astro';
+import Brand from './Brand.astro';
+import { navigation } from '../business';
+
+const isHome = Astro.url.pathname === '/';
+const contactHref = isHome ? '#contacto' : '/#contacto';
+const links = navigation.map((item) => ({
+  ...item,
+  href: isHome ? item.href.slice(1) : item.href,
+}));
+---
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <Brand />
+    <nav class="desktop-nav" aria-label="Navegación principal">
+      {links.map(({ href, label }) => <a href={href}>{label}</a>)}
+    </nav>
+    <a class="button button--outline header-contact" href={contactHref}>
+      Contáctanos <ArrowUpRight size={16} aria-hidden="true" />
+    </a>
+    <details class="mobile-menu" data-menu>
+      <summary>
+        <Menu size={21} class="menu-icon" aria-hidden="true" />
+        <X size={21} class="close-icon" aria-hidden="true" />
+        <span>Menú</span>
+      </summary>
+      <nav aria-label="Navegación móvil">
+        {links.map(({ href, label }) => <a href={href}>{label}</a>)}
+        <a href={contactHref}>Contáctanos</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<script>
+  import '../scripts/menu';
+</script>

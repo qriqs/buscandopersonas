@@ -1,61 +1,38 @@
-# BuscandoPersonas.org 🔍
+# BuscandoPersonas.org
 
-A professional investigation service website dedicated to helping people find and reconnect with their loved ones, investigate fraud cases, and provide various security services.
+Spanish-language website for BuscandoPersonas.org Sin Fronteras, a Lima-based
+private investigation agency specializing in family searches. Astro generates
+the static pages and uses Vite to bundle styles and scripts.
 
-## 🌟 Features
+## Run locally
 
-- **Responsive Design**: Fully responsive website that works on all devices
-- **Dark Mode**: Toggle between light and dark themes
-- **Contact Form**: Interactive form for case submission
-- **Service Showcase**: Detailed presentation of investigation services
-- **Testimonials**: Client testimonials carousel
-- **Multi-language Support**: Services available in English, Spanish, and Italian
-- **WhatsApp Integration**: Direct contact through WhatsApp
+Use Node.js 24 LTS. From the repository root, install dependencies and start
+the development server.
 
-## 🛠️ Technologies Used
+```sh
+npm ci
+npm run dev
+```
 
-- HTML5
-- CSS3
-- JavaScript
-- jQuery
-- Bootstrap
-- Font Awesome Icons
-- Slick Carousel
-- ScrollReveal
-- JotForm Integration
+Build and serve the production output locally to verify the compiled pages.
 
-## 💻 Services Offered
+```sh
+npm run build
+npm run preview
+```
 
-1. Missing Persons Investigation
-2. Infidelity Cases
-3. Child Support Debtor Location
-4. Vehicle Location
-5. Fraud Investigation
-6. Cybercrime Investigation
-7. Corporate Theft Investigation
+Firebase Hosting serves the build from `dist/`, which includes a custom
+`404.html`. The `context/` research files stay outside the published site.
 
-## 🚀 Setup and Installation
+## Update the site
 
-1. Clone the repository
-2. Open index.html in your browser
-3. Configure the following integrations:
-   - WhatsApp contact number
-   - JotForm contact form
+Update contact details, service descriptions and FAQ answers in
+`src/business.ts`. The homepage contact links open the existing Jotform,
+WhatsApp conversation, telephone dialer or email app.
 
-## 📱 Contact
+The original organization supplied the globe mark and the photo of the
+directors. The archive images are illustrative stock photography from Pexels.
 
-- Phone: +51 999934443
-- Email: contacto@buscandopersonas.org
-- Website: https://buscandopersonas.org
-
-## 👥 Team
-
-Led by experienced professionals including lawyers, teachers, social workers, and veteran police officers specializing in criminal investigation and humanitarian aid.
-
-## 📄 License
-
-Copyright © BuscandoPersonas.Org 2002 - 2025. All rights reserved.
-
-## 🎨 Design Credits
-
-Designed by [Enmanuel](https://ysenmanuel.github.io)
+- Hero image by [Berna](https://www.pexels.com/photo/33305508/).
+- Process image by [1 fish socks](https://www.pexels.com/photo/34384404/).
+- [Pexels license](https://www.pexels.com/license/).
