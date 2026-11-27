@@ -1,0 +1,244 @@
+{
+  "snapshot_date": "2026-11-27",
+  "brand": {
+    "primary_name": "BuscandoPersonas.org",
+    "public_name": "Buscandopersonas.org SIN FRONTERAS",
+    "short_name": "BuscandoPersonas",
+    "former_or_alternate_names": [
+      "Buscándote",
+      "BUSCAPERSONAS SIN FRONTERAS",
+      "Busca Personas Sin Fronteras",
+      "BuscandoPersonas.ORG Buscandote",
+      "Agencia de Investigaciones Buscándote",
+      "Grupo de Investigaciones Especiales BUSCANDOTE (GIEB)",
+      "Unidad de Investigación Especial Buscandot (UIEB)"
+    ],
+    "tagline_primary": "Unimos familias donde la adversidad impuso distancia.",
+    "taglines_secondary": [
+      "Reconectamos los lazos del corazón.",
+      "No importa el lugar ni el tiempo que haya transcurrido.",
+      "Te ayudamos a encontrar al ser que falta en tu vida.",
+      "Trabajando por tu reencuentro."
+    ],
+    "languages": ["Spanish", "English", "Italian"],
+    "category": "Private investigation agency with family-search and reunification specialisation",
+    "address": {
+      "street": "República del Ecuador Nro. 1025, Block 8, Dpto 502",
+      "district": "Lima",
+      "city": "Lima",
+      "postal_code": "15079",
+      "country": "Peru",
+      "notes": "Also listed as Avenida República del Ecuador (antes Zorritos) 1025"
+    },
+    "directors": [
+      {"name": "Adolfo Ramírez Funes", "role": "Director", "confidence": "likely"},
+      {"name": "Martín Arias García", "role": "Director", "confidence": "likely"}
+    ],
+    "team_description": "Former officers of the Policía de Investigaciones del Perú (PIP), lawyers, teachers, social workers and university graduates",
+    "founded_claim": "2002",
+    "founded_confidence": "unverified",
+    "earliest_public_evidence": "2012",
+    "facebook_page_created": "2014-02-11",
+    "legal_entity": null,
+    "ruc": null
+  },
+  "contacts": {
+    "email": "contacto@buscandopersonas.org",
+    "mobile_whatsapp": "+51 999 934 443",
+    "landline_whatsapp": "+51 1 754 8441",
+    "website": "https://buscandopersonas.org",
+    "form_id": "50398505051654",
+    "hours": "Always open (Facebook); office hours not published",
+    "retired_phones": [
+      "+51 936 898 339",
+      "+51 648 0835",
+      "+51 992 761 849",
+      "+51 989 051 065"
+    ]
+  },
+  "social": {
+    "facebook_main": {
+      "url": "https://www.facebook.com/BuscandoPersonasSinFronteras",
+      "followers": "3.4K",
+      "reviews": "94% recommend (13 reviews)",
+      "page_id": "580597925366344",
+      "created": "2014-02-11",
+      "category": "Entrepreneur",
+      "running_ads": true
+    },
+    "facebook_legacy": {
+      "url": "https://www.facebook.com/BuscapersonasBuscandote",
+      "followers": "2.4K",
+      "reviews": "78% recommend (15 reviews)",
+      "category": "Entertainment website"
+    },
+    "facebook_profile": {
+      "url": "https://www.facebook.com/BuscandoteSinFronteras",
+      "name": "Martin Arias Garcia",
+      "followers": "2.2K"
+    },
+    "tiktok": {
+      "url": "https://www.tiktok.com/@buscandopersonas.org",
+      "display_name": "Busca Personas Sin Fronteras",
+      "followers": 163,
+      "likes": 521,
+      "following": 474
+    },
+    "tumblr": "https://buscandopersonas.tumblr.com",
+    "slideshare": "https://www.slideshare.net/buscandopersonas"
+  },
+  "services": [
+    {
+      "id": "family-search",
+      "name_es": "Búsqueda y ubicación de personas",
+      "name_en": "Family search and reunion",
+      "role": "flagship",
+      "audience": "Adult children, parents, siblings, relatives, diaspora, families of missing persons",
+      "promise": "Locate biological parents, children, siblings, ancestors, ex-partners, friends and missing persons regardless of distance or time elapsed.",
+      "languages": ["Spanish", "English", "Italian"],
+      "price_published": false,
+      "source": "live site, old site, Facebook, TikTok"
+    },
+    {
+      "id": "legal-advice",
+      "name_es": "Asesoría jurídica",
+      "name_en": "Legal advice",
+      "role": "adjacent",
+      "audience": "Families facing child support, inheritance, paternity, adoption or guardianship issues",
+      "price_published": false,
+      "source": "old site, Facebook post"
+    },
+    {
+      "id": "infidelity",
+      "name_es": "Infidelidades",
+      "name_en": "Infidelity investigations",
+      "role": "commercial",
+      "audience": "Spouses or partners suspecting infidelity",
+      "promise": "Solid evidence (photos/videos/documents) for court; guaranteed confidentiality.",
+      "price_published": false,
+      "source": "live site, old site"
+    },
+    {
+      "id": "child-support",
+      "name_es": "Deudores por alimentos",
+      "name_en": "Child-support debtor location",
+      "role": "commercial",
+      "audience": "Parents/guardians and family lawyers",
+      "promise": "Locate the debtor, workplace and current address; information for a child-support claim.",
+      "price_published": false,
+      "source": "live site, old site"
+    },
+    {
+      "id": "vehicle",
+      "name_es": "Ubicación y recuperación de vehículos",
+      "name_en": "Vehicle location and recovery",
+      "role": "commercial",
+      "audience": "Vehicle owners, insurers, fleets, lawyers",
+      "promise": "Nationwide recovery with judicial authorisation; success-based contract.",
+      "price_published": false,
+      "source": "live site, old site"
+    },
+    {
+      "id": "fraud",
+      "name_es": "Estafadores",
+      "name_en": "Fraudster location",
+      "role": "commercial",
+      "audience": "Fraud victims, individuals and businesses",
+      "promise": "Locate the fraudster nationally through legal and effective methods; confidentiality.",
+      "price_published": false,
+      "source": "live site, old site"
+    },
+    {
+      "id": "cyber",
+      "name_es": "Delitos informáticos",
+      "name_en": "Cyber investigations and identity impersonation",
+      "role": "commercial",
+      "audience": "Individuals and companies facing impersonation, data leaks or online fraud",
+      "promise": "Detect identity impersonation on social media; protect reputation.",
+      "price_published": false,
+      "source": "live site"
+    },
+    {
+      "id": "corporate-theft",
+      "name_es": "Robo sistemático en empresas",
+      "name_en": "Corporate internal theft investigations",
+      "role": "commercial",
+      "audience": "SMEs, retailers, warehouses, compliance teams",
+      "promise": "Internal investigations, identify those responsible, protect interests and compliance.",
+      "price_published": false,
+      "source": "live site, old site"
+    },
+    {
+      "id": "data-lookup",
+      "name_es": "Consulta de datos",
+      "name_en": "People-data lookup",
+      "role": "partner/B2B",
+      "audience": "Partner legal pages, businesses, individuals",
+      "promise": "Consult data by name or number; national and international; confidential.",
+      "price_published": false,
+      "source": "Ecuadorlegal Facebook posts"
+    },
+    {
+      "id": "forensics",
+      "name_es": "Identificación forense / ADN",
+      "name_en": "Forensic identification and DNA",
+      "role": "capability",
+      "audience": "Cases with uncertain identity",
+      "promise": "Papiloscopy, fingerprint teratology, quiroscopy, pelmatoscopy, odontology, facial identification, DNA testing.",
+      "price_published": false,
+      "source": "2013 site, hero graphic"
+    }
+  ],
+  "stats": {
+    "live_site_2026": {"effectiveness": "100%", "cases_resolved": 12721, "national_collaborators": 633, "members": 2},
+    "repo_head_2025": {"effectiveness": "100%", "cases_resolved": 20518, "national_collaborators": 4872, "members": 12},
+    "site_2020": {"effectiveness": "100%", "cases_resolved": 8568, "national_collaborators": 3652, "members": 12},
+    "note": "Contradictory; do not publish without owner confirmation."
+  },
+  "service_areas_claim": [
+    "Peru (Lima HQ, nationwide collaborators)",
+    "Chile (Santiago)",
+    "Argentina (Buenos Aires)",
+    "Ecuador (Quito)",
+    "Mexico (Mexico City)",
+    "United States (Del Norte, CO; Italia, FL)",
+    "Canada (Canada, KS)",
+    "Italy (Italia, FL)"
+  ],
+  "service_areas_note": "Facebook place labels; not verified offices.",
+  "trust_signals": {
+    "facebook_recommendation": "94% (13 reviews)",
+    "legacy_page_recommendation": "78% (15 reviews)",
+    "checkins": 19,
+    "page_age": "since 2014",
+    "public_case_stories": "dozens since 2012",
+    "languages": ["Spanish", "English", "Italian"],
+    "ex_pip_team": true,
+    "address_published": true
+  },
+  "known_risks": [
+    "Contradictory case/collaborator/member counts",
+    "100% effectiveness claim",
+    "Template testimonials (Saul Goodman, John Larson, Jena Karlis)",
+    "Stock portraits used as clients",
+    "Fake portfolio placeholders (Caso 1, Web 3, App 2, Card 1)",
+    "Lorem ipsum live on the About section",
+    "No privacy policy or consent",
+    "Two competing phone numbers",
+    "Broken logo, images and dialog.js",
+    "No English/Italian pages despite the claim",
+    "Real names/faces in case stories without visible consent",
+    "Live site behind repository on stats"
+  ],
+  "sources": [
+    "https://buscandopersonas.org/",
+    "https://www.facebook.com/BuscandoPersonasSinFronteras",
+    "https://www.facebook.com/BuscapersonasBuscandote",
+    "https://www.facebook.com/BuscandoteSinFronteras",
+    "https://www.tiktok.com/@buscandopersonas.org",
+    "https://web.archive.org/web/20130101105122/http://www.buscandopersonas.org/",
+    "https://web.archive.org/web/20150811065739/http://buscandopersonas.org/?page_id=35",
+    "https://www.planetaperu.pe/buscandopersonas-org-buscandote-F1709C8001DD0",
+    "https://guiabbb.pe/01616707/Buscandopersonas.org_SIN_FRONTERAS"
+  ]
+}
